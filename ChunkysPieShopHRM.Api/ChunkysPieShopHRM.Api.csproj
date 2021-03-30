@@ -1,0 +1,138 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.1" NoWarn="NU1605" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.1" NoWarn="NU1605" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.1">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.1">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Models" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ChunkysPieShopHRM.Shared\ChunkysPieShopHRM.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Models\02\demos\End\BethanysPieShopHRM.App\App.razor" />
+      <_ContentIncludedByDefault Remove="Models\02\demos\End\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor" />
+      <_ContentIncludedByDefault Remove="Models\02\demos\End\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor" />
+      <_ContentIncludedByDefault Remove="Models\02\demos\End\BethanysPieShopHRM.App\Pages\Index.razor" />
+      <_ContentIncludedByDefault Remove="Models\02\demos\End\BethanysPieShopHRM.App\Shared\MainLayout.razor" />
+      <_ContentIncludedByDefault Remove="Models\02\demos\End\BethanysPieShopHRM.App\Shared\NavMenu.razor" />
+      <_ContentIncludedByDefault Remove="Models\02\demos\End\BethanysPieShopHRM.App\Shared\SurveyPrompt.razor" />
+      <_ContentIncludedByDefault Remove="Models\02\demos\End\BethanysPieShopHRM.App\_Imports.razor" />
+      <_ContentIncludedByDefault Remove="Models\02\demos\End\BethanysPieShopHRM.App\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="Models\02\demos\End\BethanysPieShopHRM.App\wwwroot\sample-data\weather.json" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.App\App.razor" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.App\Pages\EmployeeEdit.razor" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.App\Pages\Index.razor" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.App\Shared\MainLayout.razor" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.App\Shared\NavMenu.razor" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.App\Shared\SurveyPrompt.razor" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.App\_Imports.razor" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.Api\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.Api\appsettings.json" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.Api\obj\BethanysPieShopHRM.Api.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.Api\obj\Debug\netcoreapp3.0\project.razor.json" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.Api\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.Api\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.App\obj\BethanysPieShopHRM.App.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\project.razor.json" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.App\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.App\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.App\wwwroot\sample-data\weather.json" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.Shared\obj\BethanysPieShopHRM.Shared.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="Models\03\demos\Demos\end\BethanysPieShopHRM.Shared\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.App\App.razor" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.App\Components\AddEmployeeDialog.razor" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.App\Pages\EmployeeEdit.razor" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.App\Pages\Index.razor" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.App\Shared\MainLayout.razor" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.App\Shared\NavMenu.razor" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.App\Shared\SurveyPrompt.razor" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.App\_Imports.razor" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.Api\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.Api\appsettings.json" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.Api\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.App\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="Models\04\demos\end\BethanysPieShopHRM.App\wwwroot\sample-data\weather.json" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\Pages\_Host.cshtml" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShop.ComponentsLibrary\Map\Map.razor" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\App.razor" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\Components\AddEmployeeDialog.razor" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\Pages\EmployeeEdit.razor" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\Pages\Index.razor" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\Shared\MainLayout.razor" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\Shared\NavMenu.razor" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\_Imports.razor" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Api\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Api\appsettings.json" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Api\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.App\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Client\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\appsettings.json" />
+      <_ContentIncludedByDefault Remove="Models\05\demos\end\BethanysPieShopHRM.Server\BethanysPieShopHRM.Server\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.App\App.razor" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.App\Components\AddEmployeeDialog.razor" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.App\Pages\EmployeeEdit.razor" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.App\Pages\Index.razor" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.App\Shared\MainLayout.razor" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.App\Shared\NavMenu.razor" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.App\Shared\SurveyPrompt.razor" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.App\_Imports.razor" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.Api\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.Api\appsettings.json" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.Api\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.App\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="Models\06\demos\Demos\BethanysPieShopHRM.App\wwwroot\sample-data\weather.json" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.App\App.razor" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.App\Components\AddEmployeeDialog.razor" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.App\Pages\EmployeeEdit.razor" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.App\Pages\EmployeeOverviewVirtual.razor" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.App\Pages\Index.razor" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.App\Shared\MainLayout.razor" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.App\Shared\NavMenu.razor" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.App\Shared\SurveyPrompt.razor" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.App\_Imports.razor" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.Api\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.Api\appsettings.json" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.Api\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.App\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="Models\07\demos\Demos\BethanysPieShopHRM.App\wwwroot\sample-data\weather.json" />
+      <_ContentIncludedByDefault Remove="Models\Assets\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor" />
+      <_ContentIncludedByDefault Remove="Models\Assets\BethanysPieShopHRM.Api\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="Models\Assets\BethanysPieShopHRM.Api\appsettings.json" />
+      <_ContentIncludedByDefault Remove="Models\Assets\BethanysPieShopHRM.Api\Properties\launchSettings.json" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/bin/Debug/net5.0/ChunkysPieShopHRM.Shared.deps.json
+/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/bin/Debug/net5.0/ChunkysPieShopHRM.Shared.dll
+/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/bin/Debug/net5.0/ref/ChunkysPieShopHRM.Shared.dll
+/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/bin/Debug/net5.0/ChunkysPieShopHRM.Shared.pdb
+/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/obj/Debug/net5.0/ChunkysPieShopHRM.Shared.csprojAssemblyReference.cache
+/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/obj/Debug/net5.0/ChunkysPieShopHRM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/obj/Debug/net5.0/ChunkysPieShopHRM.Shared.AssemblyInfoInputs.cache
+/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/obj/Debug/net5.0/ChunkysPieShopHRM.Shared.AssemblyInfo.cs
+/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/obj/Debug/net5.0/ChunkysPieShopHRM.Shared.csproj.CoreCompileInputs.cache
+/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/obj/Debug/net5.0/ChunkysPieShopHRM.Shared.dll
+/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/obj/Debug/net5.0/ref/ChunkysPieShopHRM.Shared.dll
+/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/obj/Debug/net5.0/ChunkysPieShopHRM.Shared.pdb

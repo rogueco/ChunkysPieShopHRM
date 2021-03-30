@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.App/ChunkysPieShopHRM.App.csproj": {}
+  },
+  "projects": {
+    "/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.App/ChunkysPieShopHRM.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.App/ChunkysPieShopHRM.App.csproj",
+        "projectName": "ChunkysPieShopHRM.App",
+        "projectPath": "/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.App/ChunkysPieShopHRM.App.csproj",
+        "packagesPath": "/home/tfletcher/.nuget/packages/",
+        "outputPath": "/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.App/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tfletcher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/ChunkysPieShopHRM.Shared.csproj": {
+                "projectPath": "/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/ChunkysPieShopHRM.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.1, 5.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/ChunkysPieShopHRM.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/ChunkysPieShopHRM.Shared.csproj",
+        "projectName": "ChunkysPieShopHRM.Shared",
+        "projectPath": "/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/ChunkysPieShopHRM.Shared.csproj",
+        "packagesPath": "/home/tfletcher/.nuget/packages/",
+        "outputPath": "/home/tfletcher/Git/Development/ASP.NET/Pluralsight/BlazorGettingStarted/ChunkysPieShopHRM.App/ChunkysPieShopHRM.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tfletcher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
